@@ -425,3 +425,42 @@ td,
 th {
   padding: 0;
 }
+/*END NORMALIZE*/
+/*testing*/
+body {
+    background-color: LightGray;
+}
+div,
+header {
+    border: 1px solid Chocolate;
+}
+/*TESTING*/
+body{
+  font-size: 100%;
+  font-family: Roboto, sans-serif;
+}
+/*Header Styling*/
+.nav-bar{
+  max-width:70em;
+  margin-right:auto;
+  margin-left:auto 
+}
+img{
+  
+}
+ul{
+  display:inline-block;
+  list-style-type: none;
+  font-size: 1em;
+}
+/*link styling*/
+a {
+text-decoration: none;
+color: white;
+}
+a:hover{
+color:#88e98;
+}
+
+
+
