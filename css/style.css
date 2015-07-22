@@ -436,12 +436,13 @@ body {
     font-family: 'Roboto', sans-serif; 
     -webkit-font-smoothing: antialiased;
 }
-div {
-    border: 1px solid Chocolate;
-}
 /*Navigation Bar*/
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid LightGray;
 }
 .top-navigation .content {
   height: 4.375rem;
@@ -535,4 +536,5 @@ width: 33.33%;
 .icon-section .content .icons > li > h3 {
   font-weight: 400;
   font-size: 1.4em;
+  margin-left: -1.5em;
 }
