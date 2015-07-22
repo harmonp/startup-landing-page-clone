@@ -436,11 +436,40 @@ div {
 .top-navigation {
   background-color: #fff;
 }
-.top-navigation > .content {
-  width: 970px;
-  height: 70px;
+.top-navigation .content {
+  padding: 0 0.938rem;
   margin: 0 auto;
-}
-.top-navigation > .logo {
+  width: 52rem;
   height: 4.375rem;
+ }
+  
+  box-sizing: border-box;
+}
+.top-navigation .logo {
+  height: 4.375rem;
+}
+.top-navigation .links {
+  float: right;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  list-style-type: none;
+  margin-top: 1.7rem;
+  -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links > li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+.top-navigation .links > li:hover {
+  color:#4c5058;
+  cursor: pointer;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links >.active:hover{
+  color:#3a3232;
 }
