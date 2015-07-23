@@ -517,6 +517,7 @@ button:hover {
 button:focus {
   outline: none;
 }
+/*Icon Section*/
 .icon-section {
   background-color: white;
   margin-bottom: 7em;
@@ -535,6 +536,7 @@ margin:0 2.8em;
   font-size: 1.4em;
   margin-left: -1.5em;
 }
+/*Social Footer*/
 .social {
   margin-bottom: 10em;
 }
