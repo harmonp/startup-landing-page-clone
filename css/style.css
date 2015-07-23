@@ -526,12 +526,9 @@ button:focus {
   font-weight: 100;
   font-size: 2.75em;
 }
-.icon-section .content .icons > li {
+.icon-section .content .icons  > li {
 display: inline-block;
 margin:0 2.2em;
-}
-.icon-section .content .icons > li > img {
-
 }
 .icon-section .content .icons > li > h3 {
   font-weight: 400;
@@ -540,9 +537,6 @@ margin:0 2.2em;
 }
 .social {
   margin-bottom: 10em;
-}
-.social .content {
-  border-top: 1px solid LightGray;
 }
 .social .content > h4,
 .social .content > p {
@@ -554,4 +548,21 @@ margin:0 2.2em;
 .social .content > p {
   color: #9f9f9f;
   font-weight: lighter;
+  margin-top: -1em;
 }
+.social .content .icons > li {
+  border-radius: 1.25rem;
+  width:2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  text-align: center;
+  margin:1.25rem 5px;
+  border: 1px solid DarkGray;
+  padding: 0.625rem 0;
+}
+.social .content .icons {
+  padding-left: 21.5em;
+  margin-top: -1em;
+}
+
+
